@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=/site/" />
     <meta charset="UTF-8">
-    <title>Möbelman - 404</title>
+    <title>Möbelman</title>
+    
+    <!--
+        Hack to fix SPA SEO; mitigate 404 responses.
+        https://github.com/csuwildcat/sghpa
+        https://github.com/csuwildcat/sghpa/blob/master/404.html
+    -->
+    <script>
+        sessionStorage.redirect = location.href;
+    </script>
+    
+    <meta http-equiv="refresh" content="0; url='/site/'" />
 </head>
 <body>
-Redirecting to <a href="site">site</a>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
 </html>
