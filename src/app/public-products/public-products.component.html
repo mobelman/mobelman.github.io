@@ -1,0 +1,19 @@
+<h2>Produkter för offentlig miljö</h2>
+<p>
+  AV-möbler för konferens och presentation.
+</p>
+<div *ngIf="publicProducts && publicProducts.length; else noPublicProducts">
+  <div *ngFor="let publicProduct of publicProducts" class="product">
+    <a routerLink="/public/products/{{publicProduct.id}}">
+      <img src="{{publicProduct.images[0].path}}">
+    </a>
+  </div>
+</div>
+
+<ng-template #noPublicProducts>
+  <p>
+    Produktlistan tom.
+  </p>
+</ng-template>
+
+<app-footer></app-footer>

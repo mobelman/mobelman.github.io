@@ -1,0 +1,22 @@
+<div *ngIf="publicChurchProduct">
+  <h2>
+    {{publicChurchProduct.product}}
+  </h2>
+
+  <p>
+    {{publicChurchProduct.description}}
+  </p>
+
+  <div *ngFor="let image of publicChurchProduct.images" class="product">
+    <img src="{{image.path}}">
+    <p>
+      {{image.description}}
+    </p>
+  </div>
+
+  <p>
+    {{publicChurchProduct.details}}
+  </p>
+</div>
+
+<app-footer>  </app-footer>

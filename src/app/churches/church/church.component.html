@@ -1,0 +1,21 @@
+<div *ngIf="church">
+  <h2>
+    {{church.name}}, {{church.location}}
+  </h2>
+
+  <p>
+    {{church.description}}
+  </p>
+
+  <div *ngFor="let image of church.images" class="church">
+    <img src="{{image.path}}">
+    <p>
+      {{image.description}}
+    </p>
+  </div>
+
+  <a href="{{church.url}}" target="_blank">{{church.url}}</a>
+</div>
+
+<br>
+<app-footer></app-footer>
