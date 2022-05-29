@@ -1,6 +1,6 @@
 # MyApp
 
-Angular project for moebelman.com site.
+Angular project for mobelman.com site.
 
 Info about cloning the project, adding / changing code, and deploying changes to github pages to have the updated site go public can be found here: https://medium.com/swlh/how-to-deploy-an-angular-app-to-github-pages-without-using-any-libraries-step-by-step-guide-cfe96fb0c879
 
