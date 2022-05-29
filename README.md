@@ -2,7 +2,9 @@
 
 Angular project for moebelman.com site.
 
-Info about deploying on github pages can be found here: https://medium.com/swlh/how-to-deploy-an-angular-app-to-github-pages-without-using-any-libraries-step-by-step-guide-cfe96fb0c879
+Info about cloning the project, adding / changing code, and deploying changes to github pages to have the updated site go public can be found here: https://medium.com/swlh/how-to-deploy-an-angular-app-to-github-pages-without-using-any-libraries-step-by-step-guide-cfe96fb0c879
+
+Issues cloning project using Sourcetree on Mac? Change to system git in Sourcetree preferences.
 
 ## Development server
 
