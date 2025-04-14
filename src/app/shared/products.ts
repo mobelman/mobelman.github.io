@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/korsnaes_lb.jpg',
+        path: 'assets/private-products/korsnaes_lb.jpg',
         description: ''
       }
     ]
@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/korsnaes_oe.jpg',
+        path: 'assets/private-products/korsnaes_oe.jpg',
         description: ''
       }
     ]
@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/anna_lf.jpg',
+        path: 'assets/private-products/anna_lf.jpg',
         description: ''
       }
     ]
@@ -44,31 +44,31 @@ export const PRODUCTS: Product[] = [
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/anna_sf.jpg',
+        path: 'assets/private-products/anna_sf.jpg',
         description: ''
       }
     ]
   },
   {
     id: 4,
-    product: 'Kökssoffa Malin i lackerad fur',
-    description: 'Kökssoffa Malin tillverkas i lackerad fur (se bild), syrabetsad fur, samt vitlackerad björk.',
+    product: 'Kökssoffa Malin i lackerad fur / UTGÅTT UR SORTIMENTET',
+    description: 'Kökssoffa Malin tillverkades i lackerad fur (se bild), syrabetsad fur, samt vitlackerad björk.',
     details: 'Längd 162 cm / 200 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/malin_lf.jpg',
+        path: 'assets/private-products/history/malin_lf.jpg',
         description: ''
       }
     ]
   },
   {
     id: 5,
-    product: 'Kökssoffa Dalsjö i syrabetsad fur',
-    description: 'Kökssoffa Dalsjö tillverkas i lackerad fur samt syrabetsad fur (se bild).',
+    product: 'Kökssoffa Dalsjö i syrabetsad fur / UTGÅTT UR SORTIMENTET',
+    description: 'Kökssoffa Dalsjö tillverkades i lackerad fur samt syrabetsad fur (se bild).',
     details: 'Längd 180 cm / 215 cm, sitthöjd 45 cm, djup 55 cm.',
     images: [
       {
-        path: 'assets/products/kitchen-benches/dalsjoe_sf.jpg',
+        path: 'assets/private-products/history/dalsjoe_sf.jpg',
         description: ''
       }
     ]
@@ -80,11 +80,11 @@ export const PRODUCTS: Product[] = [
     details: 'Höjd 980 mm / 1070 mm, plattans mått 600 mm x 400 mm.',
     images: [
       {
-        path: 'assets/products/conference-products/talarstol-i-lackerad-ek-01.jpg',
+        path: 'assets/public-products/talarstol-i-lackerad-ek-01.jpg',
         description: ''
       },
       {
-        path: 'assets/products/conference-products/talarstol-i-lackerad-ek-11.jpg',
+        path: 'assets/public-products/talarstol-i-lackerad-ek-11.jpg',
         description: ''
       }
     ]
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
     details: 'Höjd 980 mm / 1070 mm, plattans mått 600 mm x 400 mm.',
     images: [
       {
-        path: 'assets/products/conference-products/talarstol-i-lackerad-björk.jpg',
+        path: 'assets/public-products/talarstol-i-lackerad-björk.jpg',
         description: ''
       }
     ]
@@ -108,7 +108,7 @@ export const PRODUCTS: Product[] = [
     details: '',
     images: [
       {
-        path: 'assets/products/conference-products/stapelbar-stol-001.jpg',
+        path: 'assets/public-products/stapelbar-stol-001.jpg',
         description: ''
       }
     ]
@@ -120,11 +120,11 @@ export const PRODUCTS: Product[] = [
     details: '',
     images: [
       {
-        path: 'assets/products/conference-products/bord-001.jpg',
+        path: 'assets/public-products/bord-001.jpg',
         description: ''
       },
       {
-        path: 'assets/products/conference-products/bord-002.jpg',
+        path: 'assets/public-products/bord-002.jpg',
         description: ''
       }
     ]
@@ -152,7 +152,7 @@ export const PRODUCTS: Product[] = [
     details: '',
     images: [
       {
-        path: 'assets/products/church-products/altarbord-i-lackerad-ek-001.jpg',
+        path: 'assets/public-church-products/altarbord-i-lackerad-ek-001.jpg',
         description: ''
       }
     ]

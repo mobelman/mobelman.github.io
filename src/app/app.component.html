@@ -1,16 +1,19 @@
 <div class="content">
-  <div style="text-align:center">
-    <a routerLink="/dashboard">
-      <img class="logotype" alt="Möbelman Logo" src="assets/mobelman-logotype.png">
-    </a>
+  <div class="logotype">
+      <a routerLink="/dashboard">
+        <img class="logotype" alt="Möbelman logotype" src="assets/mobelman-logotype.png">
+      </a>
   </div>
+
   <nav>
     <a routerLink="/dashboard">Hem</a>
-    <a routerLink="/public/products">Offentlig miljö</a>
-    <a routerLink="/public/church/products/">Offentlig miljö - Kyrka</a>
-    <a routerLink="/private/products">Privat miljö</a>
+    <a routerLink="/public/products">Offentlig Miljö</a>
+    <a routerLink="/public/church/products">Offentlig Miljö - Kyrka</a>
+    <a routerLink="/private/products">Privat Miljö</a>
     <a routerLink="/production">Legotillverkning</a>
-    <a routerLink="/contact">Kundservice</a>
+    <a routerLink="/history/products">Historik</a>
+    <a routerLink="/contact">Kontakt</a>
   </nav>
-  <router-outlet></router-outlet>
+
+  <router-outlet />
 </div>

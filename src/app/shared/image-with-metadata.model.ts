@@ -1,4 +1,4 @@
 export class ImageWithMetadata {
-  path: string;
-  description: string;
+  path: string = "";
+  description: string = "";
 }

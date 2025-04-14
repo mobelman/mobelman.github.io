@@ -1,17 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { CHURCHES } from './shared/churches';
 
 @Component({
   selector: 'app-churches',
+  imports: [ RouterLink ],
   templateUrl: './churches.component.html',
-  styleUrls: ['./churches.component.css']
+  styleUrl: './churches.component.css'
 })
-export class ChurchesComponent implements OnInit {
-
+export class ChurchesComponent {
   churches = CHURCHES;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 }

@@ -1,4 +1,5 @@
-import {Product} from '../../shared/product.model';
+import { Product } from '../../shared/product.model';
 
 export class PrivateProduct extends Product {
+	
 }

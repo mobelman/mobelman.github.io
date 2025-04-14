@@ -1,13 +1,15 @@
-import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
-import {Location} from '@angular/common';
-import {Church} from '../shared/church.model';
-import {CHURCHES} from '../shared/churches';
+import { Component, OnInit } from '@angular/core';
+import { FooterComponent } from "../../footer/footer.component"
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+import { Church } from '../shared/church.model';
+import { CHURCHES } from '../shared/churches';
 
 @Component({
   selector: 'app-church',
+  imports: [ FooterComponent ],
   templateUrl: './church.component.html',
-  styleUrls: ['./church.component.css']
+  styleUrl: './church.component.css'
 })
 export class ChurchComponent implements OnInit {
 

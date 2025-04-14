@@ -1,22 +1,35 @@
-<div *ngIf="publicProduct">
-  <h2>
-    {{publicProduct.product}}
-  </h2>
+@if (publicProduct)
+{
+  <div>
+    <h2>
+      {{ publicProduct.product }}
+    </h2>
 
-  <p>
-    {{publicProduct.description}}
-  </p>
-
-  <div *ngFor="let image of publicProduct.images" class="product">
-    <img src="{{image.path}}">
     <p>
-      {{image.description}}
+      {{ publicProduct.description }}
     </p>
-  </div>
 
-  <p>
-    {{publicProduct.details}}
-  </p>
-</div>
+    @for (image of publicProduct.images; track image)
+    {
+      <div class="product">
+        <img src="{{ image.path }}">
+        <p>
+          {{ image.description }}
+        </p>
+      </div>    
+    }
+
+    <p>
+      {{ publicProduct.details }}
+    </p>
+  </div>  
+}
+@else
+{
+  <div>
+    <h2></h2>
+    Produktinformation saknas.
+  </div>
+}
 
 <app-footer></app-footer>

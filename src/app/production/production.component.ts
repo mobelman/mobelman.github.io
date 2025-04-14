@@ -1,15 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import { Component } from '@angular/core';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-production',
+  imports: [ FooterComponent ],
   templateUrl: './production.component.html',
-  styleUrls: ['./production.component.css']
+  styleUrl: './production.component.css'
 })
-export class ProductionComponent implements OnInit {
+export class ProductionComponent {
 
-  constructor() {
-  }
-
-  ngOnInit() {
-  }
 }

@@ -1,4 +1,4 @@
-import {Church} from './church.model';
+import { Church } from './church.model';
 
 export const CHURCHES: Church[] = [
   {

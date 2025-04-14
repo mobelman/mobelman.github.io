@@ -3,21 +3,25 @@
   Kökssoffor tillverkade i utvalt massivt trä med inslag av detaljerat finsnickeriarbete.
 </p>
 <p>
-  En möbelprodukt vi valt att sälja via möbelbutiker över hela landet. Naturligtvis hjälper vi er att hitta närmsta
-  återförsäljare. Använd kontaktformuläret <a routerLink="/contact">här</a>.
+  En möbelprodukt vi valt att sälja via möbelbutiker över hela landet. Naturligtvis hjälper vi er att hitta närmsta återförsäljare. Använd kontaktformuläret <a routerLink="/contact">här</a>.
 </p>
-<div *ngIf="privateProducts && privateProducts.length; else noPrivateProducts">
-  <div *ngFor="let privateProduct of privateProducts" class="product">
-    <a routerLink="/private/products/{{privateProduct.id}}">
-      <img src="{{privateProduct.images[0].path}}">
-    </a>
-  </div>
-</div>
 
-<ng-template #noPrivateProducts>
+@if (privateProducts && privateProducts.length)
+{
+  @for (product of privateProducts; track product)
+  {
+    <div class="product">
+      <a routerLink="/private/products/{{ product.id }}">
+        <img src="{{ product.images[0].path }}">
+      </a>
+    </div>
+  }
+}
+@else
+{
   <p>
     Produktlistan tom.
   </p>
-</ng-template>
+}
 
 <app-footer></app-footer>
