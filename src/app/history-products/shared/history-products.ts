@@ -1,7 +1,7 @@
-import { HistoryProduct } from './history-product.model';
+import { Product } from '../../shared/product.model';
 import { PRODUCTS } from '../../shared/products';
 
-export const HISTORY_PRODUCTS: HistoryProduct[] = [
+export const HISTORY_PRODUCTS: Product[] = [
 	PRODUCTS[4],
 	PRODUCTS[5],
 ];

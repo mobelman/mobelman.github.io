@@ -10,5 +10,5 @@ import { PRIVATE_PRODUCTS } from './shared/private-products';
   styleUrl: './private-products.component.css'
 })
 export class PrivateProductsComponent {
-  privateProducts = PRIVATE_PRODUCTS;
+  products = PRIVATE_PRODUCTS;
 }

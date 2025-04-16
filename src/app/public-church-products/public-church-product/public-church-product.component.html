@@ -1,15 +1,15 @@
-@if (publicChurchProduct)
+@if (product)
 {
   <div>
     <h2>
-      {{ publicChurchProduct.product }}
+      {{ product.name }}
     </h2>
 
     <p>
-      {{ publicChurchProduct.description }}
+      {{ product.description }}
     </p>
 
-    @for (image of publicChurchProduct.images; track image)
+    @for (image of product.images; track image)
     {
       <div class="product">
         <img src="{{ image.path }}">
@@ -20,7 +20,7 @@
     }
 
     <p>
-      {{ publicChurchProduct.details }}
+      {{ product.details }}
     </p>
   </div>
 }

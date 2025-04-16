@@ -10,5 +10,5 @@ import { HISTORY_PRODUCTS } from './shared/history-products';
   styleUrl: './history-products.component.css'
 })
 export class HistoryProductsComponent {
-  historyProducts = HISTORY_PRODUCTS;
+  products = HISTORY_PRODUCTS;
 }

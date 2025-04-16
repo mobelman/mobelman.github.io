@@ -1,7 +1,7 @@
-import { PublicChurchProduct } from './public-church-product.model';
+import { Product } from '../../shared/product.model';
 import { PRODUCTS } from '../../shared/products';
 
-export const PUBLIC_CHURCH_PRODUCTS: PublicChurchProduct[] = [
+export const PUBLIC_CHURCH_PRODUCTS: Product[] = [
 	PRODUCTS[10],
 	PRODUCTS[8],
 	PRODUCTS[6],

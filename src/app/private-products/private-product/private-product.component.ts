@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FooterComponent } from '../../footer/footer.component';
-import { PrivateProduct } from '../shared/private-product.model';
+import { Product } from '../../shared/product.model';
 import { PRIVATE_PRODUCTS } from '../shared/private-products';
 
 @Component({
@@ -12,13 +12,13 @@ import { PRIVATE_PRODUCTS } from '../shared/private-products';
 })
 export class PrivateProductComponent implements OnInit {
 
-  privateProduct: PrivateProduct | undefined;
+  product: Product | undefined;
 
   constructor(private route: ActivatedRoute) {
   }
   
   ngOnInit() {
     const id = +(this.route.snapshot.paramMap.get('id') ?? -1);
-    this.privateProduct = PRIVATE_PRODUCTS.find(item => item.id === id);
+    this.product = PRIVATE_PRODUCTS.find(item => item.id === id);
   }
 }

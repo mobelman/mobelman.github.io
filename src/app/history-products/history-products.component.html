@@ -5,9 +5,9 @@
   Produkter som utgått ur sortimentet.
 </p>
 
-@if (historyProducts && historyProducts.length)
+@if (products && products.length)
 {
-  @for (product of historyProducts; track product)
+  @for (product of products; track product)
   {
     <div class="product">
       <a routerLink="/history/products/{{ product.id }}">

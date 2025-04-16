@@ -11,5 +11,5 @@ import { ChurchesComponent } from '../churches/churches.component';
   styleUrl: './public-church-products.component.css'
 })
 export class PublicChurchProductsComponent {
-  publicChurchProducts = PUBLIC_CHURCH_PRODUCTS;
+  products = PUBLIC_CHURCH_PRODUCTS;
 }

@@ -6,9 +6,9 @@
   En möbelprodukt vi valt att sälja via möbelbutiker över hela landet. Naturligtvis hjälper vi er att hitta närmsta återförsäljare. Använd kontaktformuläret <a routerLink="/contact">här</a>.
 </p>
 
-@if (privateProducts && privateProducts.length)
+@if (products && products.length)
 {
-  @for (product of privateProducts; track product)
+  @for (product of products; track product)
   {
     <div class="product">
       <a routerLink="/private/products/{{ product.id }}">

@@ -1,9 +1,9 @@
-import {Product} from './product.model';
+import { Product } from './product.model';
 
 export const PRODUCTS: Product[] = [
   {
     id: 0,
-    product: 'Kökssoffa Korsnäs i lackerad björk',
+    name: 'Kökssoffa Korsnäs i lackerad björk',
     description: 'Kökssoffa Korsnäs tillverkas i lackerad björk (se bild) samt oljad ek.',
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 1,
-    product: 'Kökssoffa Korsnäs i oljad ek',
+    name: 'Kökssoffa Korsnäs i oljad ek',
     description: 'Kökssoffa Korsnäs tillverkas i lackerad björk samt oljad ek (se bild).',
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 2,
-    product: 'Kökssoffa Anna i lackerad fur',
+    name: 'Kökssoffa Anna i lackerad fur',
     description: 'Kökssoffa Anna tillverkas i lackerad fur (se bild), syrabetsad fur, samt vitlackerad björk.',
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 3,
-    product: 'Kökssoffa Anna i syrabetsad fur',
+    name: 'Kökssoffa Anna i syrabetsad fur',
     description: 'Kökssoffa Anna tillverkas i lackerad fur, syrabetsad fur (se bild), samt vitlackerad björk.',
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 4,
-    product: 'Kökssoffa Malin i lackerad fur / UTGÅTT UR SORTIMENTET',
+    name: 'Kökssoffa Malin i lackerad fur / UTGÅTT UR SORTIMENTET',
     description: 'Kökssoffa Malin tillverkades i lackerad fur (se bild), syrabetsad fur, samt vitlackerad björk.',
     details: 'Längd 162 cm / 200 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
@@ -63,7 +63,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 5,
-    product: 'Kökssoffa Dalsjö i syrabetsad fur / UTGÅTT UR SORTIMENTET',
+    name: 'Kökssoffa Dalsjö i syrabetsad fur / UTGÅTT UR SORTIMENTET',
     description: 'Kökssoffa Dalsjö tillverkades i lackerad fur samt syrabetsad fur (se bild).',
     details: 'Längd 180 cm / 215 cm, sitthöjd 45 cm, djup 55 cm.',
     images: [
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 6,
-    product: 'Talarstol i lackerad ek',
+    name: 'Talarstol i lackerad ek',
     description: 'Talarstolen tillverkas i lackerad ek (se bild) samt lackerad björk.',
     details: 'Höjd 980 mm / 1070 mm, plattans mått 600 mm x 400 mm.',
     images: [
@@ -91,7 +91,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 7,
-    product: 'Talarstol i lackerad björk',
+    name: 'Talarstol i lackerad björk',
     description: 'Talarstolen tillverkas i lackerad björk (se bild) samt lackerad ek.',
     details: 'Höjd 980 mm / 1070 mm, plattans mått 600 mm x 400 mm.',
     images: [
@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 8,
-    product: 'Stapelbar stol',
+    name: 'Stapelbar stol',
     description: '',
     details: '',
     images: [
@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 9,
-    product: 'Bord med fanerad skiva alt. laminatbeläggning',
+    name: 'Bord med fanerad skiva alt. laminatbeläggning',
     description: 'Bord tillverkas med massiva ben och fanerad skiva alt. laminatbeläggning efter måttbeställning.',
     details: '',
     images: [
@@ -131,7 +131,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 10,
-    product: 'Kyrkbänk',
+    name: 'Kyrkbänk',
     description: '',
     details: '',
     images: [
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 11,
-    product: 'Altarbord i lackerad ek',
+    name: 'Altarbord i lackerad ek',
     description: 'Exempel på ett altarbord tillverkat i lackerad ek.',
     details: '',
     images: [

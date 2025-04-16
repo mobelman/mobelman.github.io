@@ -1,7 +1,7 @@
-import { PrivateProduct } from './private-product.model';
+import { Product } from '../../shared/product.model';
 import { PRODUCTS } from '../../shared/products';
 
-export const PRIVATE_PRODUCTS: PrivateProduct[] = [
+export const PRIVATE_PRODUCTS: Product[] = [
 	PRODUCTS[0],
 	PRODUCTS[1],
 	PRODUCTS[2],

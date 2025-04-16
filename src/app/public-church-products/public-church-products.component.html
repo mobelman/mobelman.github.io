@@ -9,9 +9,9 @@
 <h3>Referenslista</h3>
 <app-churches></app-churches>
 
-@if (publicChurchProducts && publicChurchProducts.length)
+@if (products && products.length)
 {
-  @for (product of publicChurchProducts; track product)
+  @for (product of products; track product)
   {
     <div class="product">
       <a routerLink="/public/church/products/{{ product.id }}">
